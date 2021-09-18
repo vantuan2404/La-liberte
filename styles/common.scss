@@ -1,0 +1,21 @@
+.main-size {
+    font-size: 50px;
+}
+.medium-size {
+    font-size: 36px;
+}
+.head-size {
+    font-size: 24px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .main-size {
+        font-size: 36px;
+    }
+    .medium-size {
+        font-size: 24px;
+    }
+    .head-size {
+        font-size: 20px;
+    }
+}

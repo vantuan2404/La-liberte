@@ -1,4 +1,8 @@
+// import module bootstrap
+@import "bootstrap/dist/css/bootstrap.css";
+@import "~bootstrap/scss/bootstrap";
 
+// import styles
 @import "/styles/reset";
 @import "/styles/grid_mini";
 @import "/styles/common.scss";

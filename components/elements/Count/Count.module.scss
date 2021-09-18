@@ -1,0 +1,41 @@
+.countWrapper {
+    margin: 100px 0;
+    padding: 0 20px;
+    > button {
+        --transition: all 0.5s;
+        font-size: 20px;
+        font-family: "Poppins";
+        color: #fff;
+        font-weight: 500;
+        border: none;
+        background: transparent;
+        padding: 10px 50px;
+        border-radius: 10px 0;
+        transition: var(--transition);
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+        &:nth-child(1) {
+            background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
+            &:hover {
+                background: linear-gradient(90deg, #92fe9d 0%, #00c9ff 100%);
+                transition: var(--transition);
+            }
+        }
+        &:nth-child(2) {
+            background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+            &:hover {
+                background: linear-gradient(90deg, #515ada 0%, #efd5ff 100%);
+                transition: var(--transition);
+            }
+        }
+        &:nth-child(3) {
+            background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+            &:hover {
+                background: linear-gradient(90deg, #3ad59f 0%, #f8ff00 100%);
+
+                transition: var(--transition);
+            }
+        }
+    }
+}

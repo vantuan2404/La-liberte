@@ -1,0 +1,19 @@
+.btn {
+    width: fit-content;
+    font-size: 16px;
+    font-family: "Poppins";
+    color: #000000;
+    padding: 10px 30px;
+    transition: all 0.3s;
+    border-radius: inherit !important;
+
+    &.btn-blue {
+        background: #03ceda;
+    }
+
+    &:hover {
+        background: rgb(119, 129, 133);
+        color: #ffffff;
+        transition: all 0.3s;
+    }
+}

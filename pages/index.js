@@ -1,10 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
+import HomePage from "../components/template/HomePage/HomePage";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Hello Home Page !</h1>
-    </div>
+    <>
+      <HomePage />
+    </>
   );
 }
